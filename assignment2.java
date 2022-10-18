@@ -1,10 +1,10 @@
 public class assignment2 {
     public static void main(String[] args) throws Exception {
-        int count1 = 1;
 
         //1.Use a while loop to print your FIRSTNAME three times.
         System.out.println("1.Use a while loop to print your FIRSTNAME three times.");
         System.out.println("==START==");
+        int count1 = 1;
         while (count1 != 4) {
             System.out.println(count1 + " RAINIER GERON");
             count1++;
