@@ -4,8 +4,8 @@ public class assignment2 {
         //1.Use a while loop to print your FIRSTNAME three times.
         System.out.println("1.Use a while loop to print your FIRSTNAME three times.");
         System.out.println("==START==");
-        int count1 = 1;
-        while (count1 != 4) {
+        int count1 = 0;
+        while (count1 != 3) {
             System.out.println(count1 + " RAINIER GERON");
             count1++;
         }
@@ -14,17 +14,17 @@ public class assignment2 {
         //2.Use a do-while loop to print your MIDDLENAME four times.
         System.out.println("2.Use a do-while loop to print your MIDDLENAME four times.");
         System.out.println("==START==");
-        int count2 = 1;
+        int count2 = 0;
         do { 
             System.out.println(count2 + " PASCUAL");
             count2++;
-        } while (count2 != 5);
+        } while (count2 != 4);
         System.out.println("==END==");
 
         //3.Use a for loop to print your SURNAME five times.
         System.out.println("3.Use a for loop to print your SURNAME five times.");
         System.out.println("==START==");
-        for ( int count3 = 1; count3 != 6; count3++){
+        for ( int count3 = 0; count3 != 5; count3++){
             System.out.println(count3 + " AGANAN");
         }
         System.out.println("==END==");
