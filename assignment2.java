@@ -32,21 +32,21 @@ public class assignment2 {
         //4.Create a char array that consists all of the characters of your FIRSTNAME and use a for loop to print each character of your FIRSTNAME. (example: ELIZER)
         System.out.println("4.Create a char array that consists all of the characters of your FIRSTNAME and use a for loop to print each character of your FIRSTNAME. (example: ELIZER)");
         System.out.println("==START==");
-        String [] MyFirstName = {"R", "A", "I", "N", "I", "E", "R", "G", "E", "R", "O", "N" };
+        char [] MyFirstName = {'R', 'A', 'I', 'N', 'I', 'E', 'R', 'G', 'E', 'R', 'O', 'N' };
 
         for (int count4 = 0; count4 < MyFirstName.length; count4++) {
             System.out.println(MyFirstName[count4]);
         }
-        System.out.println("==END==");
+            System.out.println("==END==");
 
         //5.Use a for loop to print the char array of your FIRSTNAME in REVERSE order (example: REZILE)
         System.out.println("5.Use a for loop to print the char array of your FIRSTNAME in REVERSE order (example: REZILE)");
         System.out.println("==START==");
-        String [] MyFirstNameReverse = {"R", "A", "I", "N", "I", "E", "R", "G", "E", "R", "O", "N" };
+        char [] MyFirstNameReverse = {'R', 'A', 'I', 'N', 'I', 'E', 'R', 'G', 'E', 'R', 'O', 'N' };
 
-        for (int count5 = MyFirstNameReverse.length-1; count5 >= 0; count5--) {
+        for (int count5 = 11; count5 >= 0; count5--) {
             System.out.println(MyFirstNameReverse[count5]);
         }
-        System.out.println("==END==");
+            System.out.println("==END==");
     }      
 }
